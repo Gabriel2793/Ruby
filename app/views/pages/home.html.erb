@@ -1,0 +1,262 @@
+<!--Cabecera-->
+      <header>
+        <!--Imagen animada!-->
+          <figure id="logo">
+            <img src="/assets/1.png">
+          </figure>
+        <!--Titulo del header-->
+          <h1>Mi Cine BLogg</h1>
+          <p class="nom_user_sesion" id="nom_user">
+            <button id="sun" onclick="csesion();"></button>
+            <span id="opcs"></span>
+          </p>
+      </header>
+    <!--Menu de Navegacion-->
+      <nav>
+        <ul>
+          <!--li.l_color*8>a-->
+          <li class="l_color"><a href="" class="l_link">Estrenos</a></li>
+          <li class="l_color"><a href="" class="l_link">Generos</a></li>
+          <li class="l_color"><a href="" class="l_link">Recomendaciones</a></li>
+          <li class="l_color"><a href="" class="l_link">Reportajes</a></li>
+          <li class="l_color"><a href="" class="l_link">Galeria</a></li>
+          <li class="l_color"><a href="" class="l_link">El administrador</a></li>
+          <li id="isesion">
+            <a href="" class="" id="mostraris" onclick="fisesion();">Iniciar sesion</a>
+          </li>
+          <li id="addpost">
+            <a href="" class="" id="mostraraddp" onclick="faddpost();">Agregar post</a>
+          </li>
+        </ul>
+      </nav>
+    <!--Formulario login-->
+      <div id="facces" class="class_acceso">
+        <form id="formulario" method="post">
+          <input type="text" name="user" id="user" placeholder="Usuario" required>
+          <input type="password" name="pass" id="pass" placeholder="Contrasena" required>
+        </form>
+        <button id="bentrada">Enviar</button>
+      </div>
+    <!--Formulario post-->
+      <div id="faddpost" class="class_post">
+        <form id="formulario1" method="post">
+          <input type="text" name="titulo" id="titulo" placeholder="Titulo" required>
+          <input type="text" name="frase" id="i_frase" placeholder="Frase" required>
+          <input type="url" id="i_link" name="link" placeholder="Link">
+        </form>
+        <button id="bpublicacion">Agregar</button>
+      </div>
+    <!-- Seccion de articulos-->
+      <section id="id_contenedor" class="class_contenedor">
+        <!--Menu lateral-->
+          <aside id="m_aside">
+            <div id="mini_buscar" class="marco">
+              <h3>Buscar <a href=""></a></h3>
+              <div id="buscar">
+                <input type="text" id="minif" placeholder="Frase" required>
+                <input type="submit" value="Buscar">
+              </div>
+            </div>
+            <div id="mini_leido" class="marco">
+              <!--(tarea)-->
+              TAREA
+            </div>
+            <div id="mini_seguidor" class="marco">
+              <!--(tarea)-->
+              TAREA
+            </div>
+            <div id="mini_contigo" class="marco">
+              <h3 class="linea">En linea contigo
+                <a href=""></a>
+              </h3>
+              <div id="sn">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+              </div>
+            </div>
+            <div id="mini_apps" class="marco">
+              <h3 class="linea">Descarga Nuestras Apps
+                <a href=""></a>
+              </h3>
+              <div class="b_apps">
+                <a href="" id="opcion1"></a>
+                <a href="" id="opcion2"></a>
+              </div>
+            </div>
+            <div id="mini_amigas" class="marco">
+              <h3 class="linea">Nuestros amigos
+                <a href=""></a>
+              </h3>
+              <div class="namigos">
+                <!--(tarea)-->
+              </div>
+            </div>
+          </aside>
+        <!--Articulo 1-->
+          <article class="articulo">
+            <figure class="img_art">
+              <img src="/assets/1.png" class="hola">
+            </figure>
+            <div class="class_genero">
+              <a href="">Genero</a>
+            </div>
+            <h2 class="titulo">
+              <a href="">Titulo #1</a>
+            </h2>
+            <h3 class="frase">
+              <p>Frase intro</p>
+            </h3>
+            <div class="autor">
+              Por <a href="">Gabriel</a>
+            </div>
+            <div class="datos_item">
+              <div class="mas">
+                <a href="">Mas?</a>
+              </div>
+              <div class="time">
+                <span class="fecha_item">Hace <strong>5</strong> minutos</span>
+              </div>
+            </div>
+            <div class="clasificacion">
+              <div class="votos">
+                <a href="" class="i_mas"></a>
+                <a href="" class="nvotos"> 720 </a>
+                <a href="" class="i_menos"></a>
+              </div>
+              <div class="estrellas">
+                <a href="" class="estrella"></a>
+                <a href="" class="nestrellas"> 4</a>
+              </div>
+            </div>
+          </article>
+        <!--Articulo 1-->
+          <article class="articulo">
+            <figure class="img_art">
+              <img src="/assets/1.png" class="hola">
+            </figure>
+            <div class="class_genero">
+              <a href="">Genero</a>
+            </div>
+            <h2 class="titulo">
+              <a href="">Titulo #1</a>
+            </h2>
+            <h3 class="frase">
+              <p>Frase intro</p>
+            </h3>
+            <div class="autor">
+              Por <a href="">Gabriel</a>
+            </div>
+            <div class="datos_item">
+              <div class="mas">
+                <a href="">Mas?</a>
+              </div>
+              <div class="time">
+                <span class="fecha_item">Hace <strong>5</strong> minutos</span>
+              </div>
+            </div>
+            <div class="clasificacion">
+              <div class="votos">
+                <a href="" class="i_mas"></a>
+                <a href="" class="nvotos"> 720 </a>
+                <a href="" class="i_menos"></a>
+              </div>
+              <div class="estrellas">
+                <a href="" class="estrella"></a>
+                <a href="" class="nestrellas"> 4</a>
+              </div>
+            </div>
+          </article>
+        <!--Articulo 1-->
+          <article class="articulo">
+            <figure class="img_art">
+              <img src="/assets/1.png" class="hola">
+            </figure>
+            <div class="class_genero">
+              <a href="">Genero</a>
+            </div>
+            <h2 class="titulo">
+              <a href="">Titulo #1</a>
+            </h2>
+            <h3 class="frase">
+              <p>Frase intro</p>
+            </h3>
+            <div class="autor">
+              Por <a href="">Gabriel</a>
+            </div>
+            <div class="datos_item">
+              <div class="mas">
+                <a href="">Mas?</a>
+              </div>
+              <div class="time">
+                <span class="fecha_item">Hace <strong>5</strong> minutos</span>
+              </div>
+            </div>
+            <div class="clasificacion">
+              <div class="votos">
+                <a href="" class="i_mas"></a>
+                <a href="" class="nvotos"> 720 </a>
+                <a href="" class="i_menos"></a>
+              </div>
+              <div class="estrellas">
+                <a href="" class="estrella"></a>
+                <a href="" class="nestrellas"> 4</a>
+              </div>
+            </div>
+          </article>
+        <!--Articulo 1-->
+          <article class="articulo">
+            <figure class="img_art">
+              <img src="/assets/1.png" class="hola">
+            </figure>
+            <div class="class_genero">
+              <a href="">Genero</a>
+            </div>
+            <h2 class="titulo">
+              <a href="">Titulo #1</a>
+            </h2>
+            <h3 class="frase">
+              <p>Frase intro</p>
+            </h3>
+            <div class="autor">
+              Por <a href="">Gabriel</a>
+            </div>
+            <div class="datos_item">
+              <div class="mas">
+                <a href="">Mas?</a>
+              </div>
+              <div class="time">
+                <span class="fecha_item">Hace <strong>5</strong> minutos</span>
+              </div>
+            </div>
+            <div class="clasificacion">
+              <div class="votos">
+                <a href="" class="i_mas"></a>
+                <a href="" class="nvotos"> 720 </a>
+                <a href="" class="i_menos"></a>
+              </div>
+              <div class="estrellas">
+                <a href="" class="estrella"></a>
+                <a href="" class="nestrellas"> 4</a>
+              </div>
+            </div>
+          </article>
+      </section>
+    <!--Footer-->
+      <footer>
+        <p>
+          <strong>Creado por Gabriel</strong>
+        </p>
+        <p>
+          - AGBM -
+        </p>
+        <div id="logos_cine">
+          <figure id="cine">
+            <a href=""><img src="/assets/1.png"></a>
+            <a href=""><img src="/assets/1.png"></a>
+          </figure>
+        </div>
+      </footer>
+    <!--<script src="./js/jquery.js"></script>
+    <script src="./js/index.js"></script>-->
